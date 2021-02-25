@@ -1,0 +1,66 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 11.0.9)
+[debug] Load.defaultLoad until apply took 596.632901ms
+[debug]           Load.loadUnit: plugins took 113.3732ms
+[debug]           Load.loadUnit: defsScala took 0.3505ms
+[debug] [Loading] Scanning directory D:\self-practice\slick\slickFirst\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\self-practice\slick\slickFirst\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.281499 ms
+[debug]               Load.resolveProject(slickfirst-build) took 54.5265ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id slickfirst-build, base: D:\self-practice\slick\slickFirst\project, plugins: List(<none>))) took 118.5764ms
+[debug] [Loading] Done in D:\self-practice\slick\slickFirst\project, returning: (slickfirst-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 144.8963ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2734ms
+[debug]         Load.loadUnit(file:/D:/self-practice/slick/slickFirst/project/, ...) took 265.519101ms
+[debug]       Load.apply: load took 471.3043ms
+[debug]       Load.apply: resolveProjects took 8.052ms
+[debug]       Load.apply: finalTransforms took 73.750799ms
+[debug]       Load.apply: config.delegates took 9.098899ms
+[debug]       Load.apply: Def.make(settings)... took 1044.652101ms
+[debug]       Load.apply: structureIndex took 115.939001ms
+[debug]       Load.apply: mkStreams took 1.740201ms
+[info] loading project definition from D:\self-practice\slick\slickFirst\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3680.0664ms
+[debug]     Load.loadUnit: defsScala took 0.002499ms
+[debug] [Loading] Scanning directory D:\self-practice\slick\slickFirst
+[debug]       Load.loadUnit: mkEval took 6.8078ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\self-practice\slick\slickFirst, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.782299 ms
+[info] loading settings for project slickfirst from build.sbt ...
+[debug]         Load.resolveProject(slickfirst) took 2.7223ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id slickfirst, base: D:\self-practice\slick\slickFirst, plugins: List(<none>))) took 5.1212ms
+[debug] [Loading] Done in D:\self-practice\slick\slickFirst, returning: (slickfirst)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2298.0261ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.9931ms
+[debug]   Load.loadUnit(file:/D:/self-practice/slick/slickFirst/, ...) took 5985.785601ms
+[debug] Load.apply: load took 6010.881699ms
+[debug] Load.apply: resolveProjects took 0.1104ms
+[debug] Load.apply: finalTransforms took 11.7208ms
+[debug] Load.apply: config.delegates took 0.527ms
+[debug] Load.apply: Def.make(settings)... took 76.0402ms
+[debug] Load.apply: structureIndex took 30.456501ms
+[debug] Load.apply: mkStreams took 0.003099ms
+[info] set current project to slickFirst (in build file:/D:/self-practice/slick/slickFirst/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-75a49880e88efe3740a9
+[info] started sbt server
