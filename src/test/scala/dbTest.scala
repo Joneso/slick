@@ -10,6 +10,7 @@ import scala.util.{Failure, Success}
 object dbTest  extends  App {
   val logger = LoggerFactory.getLogger(getClass.getSimpleName)
 
+  //path of  database config 
   val file = new File("D:\\self-practice\\slick\\slickFirst\\conf\\database.conf")
   val config = ConfigFactory.parseFile(file)
   val db = Database.forConfig("mysql_db",config.getConfig("db"))
